@@ -82,6 +82,14 @@ Resources:
             Effect : "Allow"
             Principal: '*'
             Resource: 'arn:aws:s3:::wegmansmaskdetection/*'
+  
+  AmplifyApp:
+    Type: AWS::Amplify::App
+    Properties:
+      AccessToken: "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"
+      OauthToken: "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"
+      Repository : "https://github.com/arjunravikumar/maskDetectionWebsite"
+      Name : "MaskDetectionWebsite"
 
   SecurityGroup:
     Type:  AWS::EC2::SecurityGroup
