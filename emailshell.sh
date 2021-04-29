@@ -1,6 +1,13 @@
 #!/bin/bash
-  
-sudo apt-get update -y; sudo apt-get install git -y; sudo apt install python3-pip -y; pip3 install boto3; mkdir .aws; pip3 install dynamodb-json ; git clone https://github.com/arjunravikumar/maskdetection
+
+cd ..
+sudo apt-get update -y;
+sudo apt-get install git -y;
+sudo apt install python3-pip -y;
+pip3 install boto3;
+mkdir .aws;
+pip3 install dynamodb-json;
+git clone https://github.com/arjunravikumar/maskdetection
 echo Please enter the your AWS CLI.
 unset tmp
 while :
