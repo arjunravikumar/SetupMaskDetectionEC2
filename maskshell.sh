@@ -8,7 +8,8 @@ sudo apt install python3-pip -y;
 pip3 install youtube_dl; pip3 install boto3;
 pip3 install pytz;
 mkdir .aws;
-git clone https://github.com/arjunravikumar/maskdetection
+git clone https://github.com/arjunravikumar/maskdetection;
+clear;
 echo Please enter the your AWS CLI.
 unset tmp
 while :
