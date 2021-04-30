@@ -94,8 +94,7 @@ Resources:
   AmplifyApp:
     Type: AWS::Amplify::App
     Properties:
-      AccessToken: "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"
-      OauthToken: "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"
+      OauthToken: "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"
       Repository : "https://github.com/arjunravikumar/maskDetectionWebsite"
       Name : "MaskDetectionWebsite"
       BuildSpec: |-
